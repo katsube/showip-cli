@@ -35,6 +35,13 @@ $ showip -s aws
 | ifconfigme |         | https://ifconfig.me/ip |
 | ipaddrshow |         | http://ipaddr.show/ |
 
+## Plan B
+In fact, there is a smarter way.
+
+```shellsession
+$ vi ~/.bashrc
+alias showip='curl https://checkip.amazonaws.com'
+```
 
 ## License
 The MIT License.
