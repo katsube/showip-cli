@@ -1,0 +1,34 @@
+{
+  "name": "showip-cli",
+  "version": "1.0.0",
+  "description": "A command line tool to display the current global IP address.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "showip": "bin/showip.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsube/showip-cli.git"
+  },
+  "keywords": [
+    "IP",
+    "IPv4",
+    "CLI",
+    "IPAddress",
+    "GlobalIP"
+  ],
+  "author": "M.Katsube",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katsube/showip-cli/issues"
+  },
+  "homepage": "https://github.com/katsube/showip-cli#readme",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "node-fetch": "^2.6.1"
+  }
+}
