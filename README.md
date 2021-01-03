@@ -1,4 +1,4 @@
-# Showip-cli
+# Showip-CLI
 A command line tool to display the current global IP address.
 
 ## INDEX
